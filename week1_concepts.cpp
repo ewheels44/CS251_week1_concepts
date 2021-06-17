@@ -107,7 +107,8 @@ int main() {
 		// push_back
 		//
 		// non-random
-		push_back(mylisyofnodes, i);
+		/* push_back(mylisyofnodes, i); */
+		push_back(mylisyofnodes, i + rand() % 10 + 1);
 	}
 
 	// TODO: change list i.e. non-sorted
